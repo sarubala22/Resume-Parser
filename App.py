@@ -42,7 +42,9 @@ from Courses import ds_course,web_course,android_course,ios_course,uiux_course,r
 import pafy #for uploading youtube videos
 import plotly.express as px #to create visualisations at the admin session
 import nltk
-nltk.download('stopwords' , download_dir='C:\Users\saru5\anaconda3\pkgs\nltk-3.8.1-py312haa95532_0\Scripts')
+nltk_data_dir = r'C:\Users\saru5\anaconda3\pkgs\nltk-3.8.1-py312haa95532_0\Scripts'  # or use double backslashes
+nltk.download('stopwords', download_dir=nltk_data_dir)
+
 
 
 def fetch_yt_video(link):

@@ -1,4 +1,5 @@
 pdfminer3
+nltk
 pyresparser
 streamlit
 pandas

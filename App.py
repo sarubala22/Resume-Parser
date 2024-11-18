@@ -42,7 +42,7 @@ from Courses import ds_course,web_course,android_course,ios_course,uiux_course,r
 import pafy #for uploading youtube videos
 import plotly.express as px #to create visualisations at the admin session
 import nltk
-nltk_data_dir = r'C:\Users\saru5\anaconda3\pkgs\nltk-3.8.1-py312haa95532_0\Scripts'  # or use double backslashes
+nltk_data_dir = r'C:\Users\saru5\AppData\Local\Microsoft\WindowsApps\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\python.exe'  # or use double backslashes
 nltk.download('stopwords', download_dir=nltk_data_dir)
 
 
